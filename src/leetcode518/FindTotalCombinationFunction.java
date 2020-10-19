@@ -2,7 +2,7 @@ package leetcode518;
 
 public class FindTotalCombinationFunction {
 	public int change(int amount, int[] coins) {
-		// If there is 0 amount, there could only be 1 way to get it
+		// Edge case, no amount of money
 		if (amount == 0) {
 			return 1;
 		}
